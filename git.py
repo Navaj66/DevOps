@@ -14,7 +14,10 @@ elif operator== "*":
     print(Num1 * Num2)
 
 elif operator== "/":
-    print(Num1 / Num2)
-
+    if Num2 !=0:
+        print(Num1 / Num2)
+    else:
+        print("Divided by zero is indefinite so kindly remove zero from Num1 ")   
+    
 else:
     print( "Enter valid Opeartor" )
